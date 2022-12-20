@@ -15,3 +15,20 @@
       - Update the equivalence table.
     - Otherwise, assign a new label.
   -  Re-label with the smallest of equivalent labels
+
+ ---
+ ## Example:
+ To illustrate connected components labeling, we start with a simple binary image containing some distinct artificial objects.
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/63426759/208630330-55ebc252-a5ac-4dca-8a57-d9cbfe501330.png)
+ 
+ After scanning this image and labeling the distinct pixels classes with a different grayvalue, we obtain the labeled output image.
+ 
+ ![image](https://user-images.githubusercontent.com/63426759/208630774-f06c549a-c265-477b-8e0f-86b33ddc4821.png)
+ 
+ Note that this image was scaled, since the initial grayvalues (1 - 8) would all appear black on the screen. However, the pixels initially assigned to the lower classes (1 and 2) are still indiscernible from the background. If we assign a distinct color to each graylevel we obtain:
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/63426759/208631123-a1013c2b-2286-461e-bc08-93661dff6dc6.png)
+ 
